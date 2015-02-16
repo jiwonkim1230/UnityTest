@@ -70,7 +70,7 @@ public class UnityAdsTestStartActivity extends Activity implements IUnityAdsList
 		    	_statusImage.setVisibility(View.VISIBLE);
 		    	UnityAds.setTestDeveloperId(((EditText)findViewById(R.id.unityads_example_developer_id_data)).getText().toString());
 		    	UnityAds.setTestOptionsId(((EditText)findViewById(R.id.options_id_data)).getText().toString());
-				UnityAds.init(_self, "16", _self);
+				UnityAds.init(_self, "131626085", _self);
 				UnityAds.setListener(_self);
 			}
 		});
